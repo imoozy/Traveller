@@ -41,3 +41,65 @@
         //var newName = mensagem.replace("**NOME**", nome);
         //alert(newName);
         
+
+        //Decisão simples
+        //var idade = Number(prompt("Digite sua idade: "));
+
+        //if (idade >= 18) {
+        //    alert("Você é maior de idade.");
+        //} else {
+        //    alert("Você é menor de idade.");
+        //}
+
+        //Decisão composta
+        //var n1 = Number(prompt("Digite sua nota: "));
+
+        //if (n1  >= 6 && n1 <= 10) {
+        //    alert("Aprovado!");
+        //} else if (n1 >= 0 && n1 < 6) {
+        //    alert("Reprovado!");
+        //} else {
+        //    alert("Nota inválida!");
+        //}
+
+        //switch case
+
+        //var cardapio = Number(prompt("Escolha um prato do cardápio:\n1 - Pizza\n2 - Hambúrguer\n3 - Salada\n4 - Sushi"));
+
+        //switch (cardapio) {
+        //        case 1:
+        //                alert("Você escolheu Pizza. Bom apetite!");
+        //                break;
+        //        case 2:
+        //                alert("Você escolheu Hambúrguer. Bom apetite!");
+        //                break;
+        //        case 3:
+        //                alert("Você escolheu Salada. Bom apetite!");
+        //                break;
+        //        case 4:
+        //                alert("Você escolheu Sushi. Bom apetite!");
+        //                break;
+        //        default:
+        //                alert("Opção inválida. Por favor, escolha um número entre 1 e 4.");
+        //}
+
+        //função
+
+        //function avisar(){
+        //        alert("Função executada com sucesso!");
+        //}
+
+        //avisar();
+
+        //função com parâmetro e retorno
+        //function somar(a, b){
+        //        return a + b;
+        //}
+
+        //alert("A soma é: " + somar(5, 10));
+
+        //manipulação html
+        function alterarTitulo(){
+                var novoTitulo = prompt("Digite o novo título para a seção de Destinos Populares:");
+                document.getElementById("tituloPopular").innerText = novoTitulo;
+        }
