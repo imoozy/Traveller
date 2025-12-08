@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveller - Planeje sua viagem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Projeto_html/css/bts.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Projeto_html/index.html">
+                    <i class="bi bi-airplane-fill"></i> Traveller
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-map"></i> Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-info-circle"></i> Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-envelope"></i> Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container my-5">
+        <!-- Hero -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h1><i class="bi bi-airplane-fill"></i> Bem-vindo ao Traveller!</h1>
+                        <p>Descubra destinos, compare pacotes e crie roteiros personalizados em poucos cliques.</p>
+                        <div class="hero-search">
+                            <input class="form-control" type="search" placeholder="Para onde quer ir? Ex: Rio de Janeiro, Salvador..." aria-label="Buscar destinos">
+                            <button class="btn btn-light" type="button"><i class="bi bi-search"></i></button>
+                        </div>
+                        <div class="d-flex justify-content-center gap-3 mt-4">
+                            <a href="#" class="btn btn-light">Explorar Destinos</a>
+                            <a href="#" class="btn btn-outline-light">Ofertas da Semana</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planeje sua viagem (texto + imagem) -->
+        <section class="planning-section">
+            <div class="planning-grid">
+                <div class="planning-text">
+                    <h2>Planeje sua viagem</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum deleniti commodi unde fugit consequuntur.</p>
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i> Roteiros personalizados</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i> Comparação de preços</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i> Atendimento 24/7</li>
+                    </ul>
+                    <div class="mt-4">
+                        <a class="btn btn-primary btn-lg" href="#">Começar agora</a>
+                        <a class="btn btn-outline-secondary ms-2" href="#">Ver pacotes</a>
+                    </div>
+                </div>
+                <div class="planning-image">
+                    <img src="/Projeto_html/img/paulista.png" alt="Cidade - Paulista" />
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="mb-4">Destinos Populares</h2>
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100">
+                        <img src="/Projeto_html/img/paulista.png" class="card-img-top" alt="Imagem do Cristo Redentor no Rio de Janeiro">
+                        <div class="card-body">
+                            <h5 class="card-title">Rio de Janeiro</h5>
+                            <p class="card-text">A cidade maravilhosa espera por você!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100">
+                        <img src="/Projeto_html/img/mewing.png" class="card-img-top" alt="Imagem do Pelourinho em Salvador">
+                        <div class="card-body">
+                            <h5 class="card-title">Salvador</h5>
+                            <p class="card-text">Conheça a cultura e as praias da Bahia!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100">
+                        <img src="/Projeto_html/img/mewing.png" class="card-img-top" alt="Imagem de Florianópolis">
+                        <div class="card-body">
+                            <h5 class="card-title">Florianópolis</h5>
+                            <p class="card-text">Desfrute das belas praias e da natureza!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr class="table-primary">
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Destino Favorito</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr class="text-center">
+                        <td>Ana</td>
+                        <td>28</td>
+                        <td>Paris</td>
+                    </tr >
+                    <tr class="text-center">
+                        <td>Bruno</td>
+                        <td>34</td>
+                        <td>Tóquio</td>
+                    </tr>
+                    <tr class="text-center">
+                        <td>Carla</td>
+                        <td>25</td>
+                        <td>Sydney</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="text-center">
+                        <td colspan="3">Fim da tabela</td>
+                    </tr>
+                </tfoot>
+            </table>
+    
+    </main>
+    <footer class="bg-dark text-center text-white py-4">
+        <h3>Sobre nós</h3>
+        <p>Somos apaixonados por viagens e queremos ajudar você a explorar o mundo!</p>
+        <p>&copy; 2024 Traveller. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
