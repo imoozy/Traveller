@@ -99,7 +99,7 @@
         //alert("A soma é: " + somar(5, 10));
 
         //manipulação html
-        function alterarTitulo(){
-                var novoTitulo = prompt("Digite o novo título para a seção de Destinos Populares:");
-                document.getElementById("tituloPopular").innerText = novoTitulo;
-        }
+        //function alterarTitulo(){
+        //        var novoTitulo = prompt("Digite o novo título para a seção de Destinos Populares:");
+        //        document.getElementById("tituloPopular").innerText = novoTitulo;
+        //}
