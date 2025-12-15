@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário Líquido</title>
+</head>
+
+<body>
+    <script>
+        //salário liquido   
+        var hoasTrab = Number(prompt("Digite o número de horas trabalhadas no mês: "));
+        var valorHora = Number(prompt("Digite o valor da sua hora de trabalho: "));
+        var imposto = Number(prompt("Digite o percentual de imposto (em %): "));
+
+        var salarioBruto = hoasTrab * valorHora;
+        var desconto = (imposto / 100) * salarioBruto;
+        var salarioLiquido = salarioBruto - desconto;
+        alert("Seu salário líquido é: R$ " + salarioLiquido.toFixed(2));
+    </script>
+</body>
+
+</html>

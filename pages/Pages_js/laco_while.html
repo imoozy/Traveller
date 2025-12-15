@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laços switch/for</title>
+</head>
+
+<body>
+    <script>
+        //laço de repetição avançados   
+        let i = 0;
+        while (i <= 10) {
+            console.log("Contagem: " + i);
+            i++;
+            let input
+        };
+        //while true
+        while (true) {
+            input = prompt("Digite 'sair' para parar:");
+            if (input === "sair") {
+                break;
+            }
+            console.log("Você digitou: " + input);
+        }
+        //for in range
+        for (let i = 0; i < 10; i++) {
+            console.log("Número: " + i);
+        }
+
+        //do while
+        let numero;
+
+        do {
+            numero = Number(prompt("Digite um número maior que 100:"));
+        } while (numero <= 100);
+
+        alert("Obrigado! Você digitou: " + numero);
+
+
+        let opcao;
+
+        do {
+            opcao = prompt(
+                "Escolha uma opção:\n1 - Comprar\n2 - Vender\n3 - Sair"
+            );
+
+            switch (opcao) {
+                case "1":
+                    alert("Você escolheu Comprar");
+                    break;
+                case "2":
+                    alert("Você escolheu Vender");
+                    break;
+                case "3":
+                    alert("Saindo...");
+                    break;
+                default:
+                    alert("Opção inválida!");
+            }
+
+        } while (opcao !== "3");
+
+
+        let soma = 0;
+        let num;
+
+        do {
+            num = Number(prompt("Digite um número (0 para parar):"));
+            soma += num;
+        } while (num !== 0);
+
+        alert("Somatório = " + soma);
+
+        //array e objetos
+        let arr = [10, 20, 30, 40, 50];
+        for (let i in arr) {
+            console.log(arr[i]);
+        }
+
+        let str = "Traveller";
+        for (let char of str) {
+            console.log(char);
+        }
+    </script>
+</body>
+
+</html>
